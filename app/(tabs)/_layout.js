@@ -7,7 +7,7 @@ export default () => {
             <Tabs.Screen
                 name="page1"
                 options={{
-                    title: 'page 1',
+                    title: 'О себе',
                     tabBarIcon: () => <Foundation name="page" size={24} color="red" />,
                     headerShown: false,
                 }}
@@ -16,7 +16,7 @@ export default () => {
             <Tabs.Screen
                 name="page2"
                 options={{
-                    title: 'page 2',
+                    title: 'Мои языки программирования',
                     tabBarIcon: () => <Foundation name="page" size={24} color="blue" />,
                     headerShown: false,
                 }}
